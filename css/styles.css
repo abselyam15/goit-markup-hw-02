@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: var(--white);
   color: var(--slate);
@@ -44,14 +44,14 @@ header {
 
 header .container {
   display: flex;
-  padding: 24px;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-logo {
-  margin-right: 76px;
-  font-family: 'Raleway', sans-serif;
+  padding: 24px;
+  margin-right: 52px;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 24px;
   color: var(--navy-blue);
@@ -216,8 +216,8 @@ header .container {
 }
 
 .team-card {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   transition: 0.3s;
   background-color: var(--white);
@@ -252,7 +252,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.167;
@@ -282,9 +282,14 @@ footer {
 
 /* ----------PORTFOLIO---------- */
 
+.portgolio-section {
+  letter-spacing: 0.02em;
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filter-btn {
   padding: 12px 24px;
-  margin-top: 96px;
   color: var(--iris);
   background: var(--cloud);
   border: 1px solid var(--cornflower);
@@ -332,4 +337,5 @@ footer {
 
 .card-text {
   line-height: 1.5;
+  color: var(--slate);
 }
